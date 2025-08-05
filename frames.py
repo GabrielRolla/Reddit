@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # from dotenv import load_dotenv
 # load_dotenv()
 # GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key="AIzaSyBSoa5kmjAc-3aOdCTsNhFjkV8WEIsBfRA")
+genai.configure(api_key="chave")
 
 INPUT_FILE = 'data/dados_preparados_para_frames.csv'
 OUTPUT_FILE = 'data/dados_com_frames.csv'
